@@ -1,0 +1,222 @@
+
+<html>
+	<head>
+		<!-- What displays on the tab -->
+		<title>
+			Everything for Coffee
+		</title>
+		
+		<style>
+			/*Styling the body */
+			body {
+				margin-top: 100;
+				margin-left:100;
+				font-family: arial;
+				background-color: /*#f0b27a*/#232323; 
+				}
+				
+			/* styling the top navigation bar */	
+			.topnav {
+				height:100%;
+				overflow: hidden;
+				line-height:40px;
+				background-color: #D86A5A;
+				text-align: right;
+			}
+
+			/* styling the text in top navigation bar*/
+			.topnav a {
+				color: #f2f2f2;
+				text-align: center;
+				padding: 14px 8px;
+				text-decoration: none;
+				font-size: 17px;
+			}
+
+			/* styling the hover event of top navigation bar*/
+			.topnav a:hover {
+				background-color: #B84737;
+				color: black;
+			}
+			
+			/* styling the coffee mug */
+			.cmug-img{
+				<!-- set to relative so that an image can snap on to the image -->
+				position: relative;
+				top:0;
+				left:0;
+			}
+			
+			/* styling the icon that snaps on to the cofee mug */
+			.cicon-img{
+				/* set to absolute so that it can be on top of cofee mug image */
+				position: absolute;
+				top:170;
+				left:235;
+			}
+			
+			/* styling the image that the bottom navigation goes on to */
+			.cbean-img{
+			
+				background-image: url("footer_beans.png");
+				min-height:60;
+				margin-top:-25px;
+				background-position: left;
+				background-repeat: no-repeat;
+				background-size: cover;
+				/* set to relative so that an container can snap on to the image */
+				position: relative;
+			}
+			
+			/* the container is needed sothat the bottom navigation bar can be on top of the image */
+			.container {
+				position: relative;
+				top:15px;
+				margin-right: 10px;
+				width: auto;
+			}
+			
+			/* styling the bottom navigation bar */
+			.botnav {
+			
+				line-height:50px;
+				overflow: hidden;
+				background-repeat: no-repeat;
+				background-position:left bottom;
+				text-align: right;
+			}
+			
+			/* text for bottom navugation bar */
+			.botnav a {
+				
+				color: #f2f2f2;
+				text-align: center;
+				padding: 7px 8px;
+				text-decoration: none;
+				font-size: 17px;
+			}
+			
+			/* hover event for bottom navigation bar */
+			.botnav a:hover {
+				background-color: #B84737;
+				color: black;
+			}
+			
+		</style>
+	
+	</head>
+	
+	<!-- the start of the webpage -->
+	<body>	
+		
+		<!-- to get the structure right for the page, I put it in a table -->
+		<table border="0" cellpadding="0" cellspacing="0" width="1000" >
+			<!-- the first row, containing the top navigation bar -->
+			<tr>
+				<td colspan="2" style="height:40px" >
+					<div class="topnav"font>                
+						<a href="Roelof Kristensen 7566 FA2.html">Home</a>
+						 <span style="color: white">|</span>                 
+						<a href="Coffee Filters.html">Coffee Filters</a>
+						 <span style="color: white">|</span>                 
+						<a href="Coffee Makers.html">Coffee Makers</a>
+						 <span style="color: white">|</span>                  
+						<a href="Gourment Beans.html">Gourment Beans</a>
+						 <span style="color: white">|</span>                 
+						<a href="Customer Service.html">Customer Service</a>
+					</div>
+				</td>
+			</tr>
+			
+			<!-- second row, containing the mug image and everything for coffee info -->
+			<tr>
+				<!-- the first column containing the mug and icon image -->
+				<td width = "500" height="350">
+					<div style="position: relative; left: 0; top: 0;">
+						<!-- mug image -->
+						<img src="img_logo_cup.jpg" class="cmug-img" height= "360" width="500" >
+						<!-- icon image on top -->
+						<img src="icon.png" class="cicon-img">
+					</div>	
+				</td>
+				
+				<!-- second column with everything for coffee info -->
+				<td style="background-color: #78281f">
+					<!-- everything for coffee image -->
+					<img src="logo_transparent.gif" width = "400" style="margin-left:30px; margin-top:20px">
+					
+					<h3 style="color:#D68910; margin-left:30px">Welcome to everything for Coffee</h3>
+					<p  style="color:white; margin-left:30px; text-align:center-left; font-size:14px">
+						Make the perfect cup of coffee with heavenly aroma and<br>
+						exceptional flavor. For all you coffee lovers, we bring your<br> 
+						favorite blends to your doorstep from specialty roasters all over <br>
+						the world.
+					</p>
+					
+					<p  style="color:white; text-align:left; margin-left:30px; margin-bottom:50px; font-size:14px">
+						The flavor of coffee highly depends on the environmental<br>
+						conditions where it is grown, so we carefully select high-quality<br>
+						beans from the riches coffee-growing areas of the world<br>
+					</p>
+					
+				</td>
+			</tr>
+			
+			<!-- third row with history of coffee -->
+			<tr>
+				<td colspan="2" style="background-color: #641e16" >
+					<!-- created a table within a table to be able to get a border around the info -->
+					<table border="0" width="960" style="border: 2px solid white; margin-left:20px; margin-top:20px; margin-bottom:20px; 
+					background-color: #af611a;">
+						<tr>
+							<td>
+								<!-- model image -->
+								<img src="model.jpg" style="margin-top:50px; margin-right:40px; float:right; width: 170px; height: 190px">
+								<h3  style="color:#D68910; text-align:left; margin-left:20px;margin-top: 30px">Hisory of coffee</h3>
+								<p style="color:white; text-align:left; margin-left:20px; font-size:14px">
+									The origin of coffee date back to the 600 A.D. There are several legends about the origins of coffee, one of wich<br>
+									states that in eastern Africa, a sheperd called Kaldi observed that his goats where overactive when they ate <br>
+									cherry-red berries from a shrub. He tried to eat some of the berries, and found himself invigorated too. Soon,<br>
+									news spread about the stimulating affects of these berries, and monks started sing the berries to stay awake <br>
+									during their long hours of prayer.<br>
+								</p>
+								<p style="color:white; text-align:left; margin-left:20px; margin-bottom:20px; font-size:14px">
+									From <span style="color: #803102">Eastern Africa</span>, coffee was transported to <span style="color: #803102">Arabia</span> and then to <span style="color: #803102">Turkey</span>, where they roasted the beans<br>
+									and boiled them and gave rise to a crude of coffee that we use today. Soon, coffee spread to <span style="color: #803102">Europe</span>,<br>
+									<span style="color: #803102">America</span>, and other countries, and now it is one of the most popular beverages enjoyed by multitude of<br>
+									people all over the world.<br>
+								</p>
+							</td>
+						</tr>
+					</table>		
+				</td>
+			</tr>
+			
+			<!-- fourth row containing the footer image and the bottom navigation bar -->			
+			<tr>
+				<td colspan="2" height="40px">
+					<!-- inserting a navigation bar in the footer-->
+					<footer>
+						<!-- inserted image -->
+						<div class="cbean-img">
+							<!-- container is in the image so that it can sit on top of the image -->
+							<div class="container">
+								<!-- the navigation bar in the container so it can be displayed in the container -->
+								<div class="botnav">
+										<a href="Careers.html">Careers</a>
+										<span style="color: white">|</span> 
+										<a href="Trademark and Copyright.html">Trademark and Copyright</a>
+										<span style="color: white">|</span> 
+										<a href="Privacy Policy.html">Privacy Policy</a>
+										<span style="color: white">|</span> 
+										<a href="Terms and Conditions.html">Terms and Conditions</a>
+								</div>
+							</div>
+						</div>
+					</footer>
+				</td>
+			</tr>
+						
+		</table>
+	</body>
+</html>
